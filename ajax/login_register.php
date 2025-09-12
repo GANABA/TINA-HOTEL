@@ -50,8 +50,8 @@ function send_mail($uemail, $token, $type)
         $mail->SMTPSecure = 'ssl';
                     $mail->Host       = 'smtp.gmail.com'; // Remplacez par votre hôte SMTP
                     $mail->SMTPAuth   = true;
-                    $mail->Username   = 'ganabamelchisedech@gmail.com'; // Remplacez par votre adresse email SMTP
-                    $mail->Password   = 'klpnmzgwnqlsexvf'; // Remplacez par votre mot de passe SMTP
+                    $mail->Username   = 'exemple@gmail.com'; // Remplacez par votre adresse email SMTP
+                    $mail->Password   = 'mot de passe smtp'; // Remplacez par votre mot de passe SMTP
                     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                     $mail->Port       = 25;*/
 
